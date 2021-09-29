@@ -1,0 +1,116 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 50px;
+ 
+}
+
+a {
+  color: #00B7FF;
+}
+
+h4 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+
+
+.container-fluid .total-question {
+  margin-left: 40px;
+}
+
+.container-fluid .list-question  {
+  margin-top: -20px;
+  color: blue;
+}
+
+.container-fluid .list-question a  {
+  
+  color: rgb(16, 16, 17);
+}
+
+.container-fluid .list-question  .title  {
+  text-decoration: none;
+  color: rgb(15, 15, 238);
+}
+
+.container-fluid .list-question a:hover  {
+  
+  color: rgb(16, 16, 17);
+}
+
+
+
+
+
+
+#container {
+  margin: 0 auto;
+  width: 60rem;
+}
+.tags {
+  /* margin-left: 240px; */
+  background: none repeat scroll 0 0 #fff;
+  /* border: 1px solid #ccc; */
+  display: table;
+  padding: 0.5em;
+  width: 100%;
+}
+.tags li.tagAdd, .tags li.addedTag {
+  float: left;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+}
+.tags li.addedTag {
+  background: none repeat scroll 0 0 #019f86;
+  border-radius: 2px;
+  color: #fff;
+  padding: 0.25em;
+}
+.tags input, li.addedTag {
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-shadow: none;
+  display: block;
+  padding: 0.5em;
+}
+.tags input:hover {
+  border: 1px solid #000;
+}
+span.tagRemove {
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 0.5em;
+}
+span.tagRemove:hover {
+  color: #222222;
+}
+#id P, H1 {
+  text-align: center;
+}
+#id p {
+  color: rgb(158, 155, 155);
+}
+h1 {
+  color: #6b6b6b;
+  font-size: 1.5em;
+}
+
+.tag-editor {
+  border-bottom: 1px solid rgb(221, 217, 217);
+  
+}
+
+.total-question {
+  border-bottom: 1px solid rgb(221, 217, 217);
+}
+
+.form-floating{
+  margin: auto;
+  width: 2rem;
+}
+
+
+#form-email{
+  width: 20rem;
+}
